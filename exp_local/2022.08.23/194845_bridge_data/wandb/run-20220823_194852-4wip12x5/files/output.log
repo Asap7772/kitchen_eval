@@ -1,0 +1,12 @@
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "train.py", line 284, in main
+    workspace.run()
+  File "train.py", line 164, in run
+    self.action_ae.fit_model(
+  File "/nfs/kun2/users/asap7772/bet/models/action_ae/discretizers/base.py", line 38, in fit_model
+    self.fit_discretizer(all_action_tensors)
+  File "/nfs/kun2/users/asap7772/bet/models/action_ae/discretizers/k_means.py", line 29, in fit_discretizer
+    assert (
+AssertionError: Input action dimension 2 does not match fitted model 7
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

@@ -1,0 +1,70 @@
+2022-08-23 23:27:26,750 INFO    MainThread:46184 [internal.py:wandb_internal():87] W&B internal server running at pid: 46184, started at: 2022-08-23 23:27:26.749861
+2022-08-23 23:27:26,753 DEBUG   HandlerThread:46184 [handler.py:handle_request():130] handle_request: check_version
+2022-08-23 23:27:26,753 INFO    WriterThread:46184 [datastore.py:open_for_write():77] open: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/run-emkm461q.wandb
+2022-08-23 23:27:26,755 DEBUG   SenderThread:46184 [sender.py:send():238] send: header
+2022-08-23 23:27:26,756 DEBUG   SenderThread:46184 [sender.py:send_request():252] send_request: check_version
+2022-08-23 23:27:26,806 DEBUG   SenderThread:46184 [sender.py:send():238] send: run
+2022-08-23 23:27:26,958 INFO    SenderThread:46184 [dir_watcher.py:__init__():169] watching files in: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files
+2022-08-23 23:27:26,959 INFO    SenderThread:46184 [sender.py:_start_run_threads():825] run started: emkm461q with start time 1661322445
+2022-08-23 23:27:26,959 DEBUG   SenderThread:46184 [sender.py:send():238] send: summary
+2022-08-23 23:27:26,962 DEBUG   HandlerThread:46184 [handler.py:handle_request():130] handle_request: run_start
+2022-08-23 23:27:26,973 INFO    SenderThread:46184 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2022-08-23 23:27:26,977 DEBUG   HandlerThread:46184 [meta.py:__init__():40] meta init
+2022-08-23 23:27:26,977 DEBUG   HandlerThread:46184 [meta.py:__init__():54] meta init done
+2022-08-23 23:27:26,977 DEBUG   HandlerThread:46184 [meta.py:probe():214] probe
+2022-08-23 23:27:26,986 DEBUG   HandlerThread:46184 [meta.py:_setup_git():204] setup git
+2022-08-23 23:27:27,021 DEBUG   HandlerThread:46184 [meta.py:_setup_git():211] setup git done
+2022-08-23 23:27:27,022 DEBUG   HandlerThread:46184 [meta.py:_save_code():92] save code
+2022-08-23 23:27:27,022 WARNING HandlerThread:46184 [meta.py:_save_code():94] unable to save code -- program entry not found
+2022-08-23 23:27:27,022 DEBUG   HandlerThread:46184 [meta.py:_save_patches():130] save patches
+2022-08-23 23:27:27,191 DEBUG   HandlerThread:46184 [meta.py:_save_patches():172] save patches done
+2022-08-23 23:27:27,192 DEBUG   HandlerThread:46184 [meta.py:_save_pip():58] save pip
+2022-08-23 23:27:27,213 DEBUG   HandlerThread:46184 [meta.py:_save_pip():72] save pip done
+2022-08-23 23:27:27,213 DEBUG   HandlerThread:46184 [meta.py:_save_conda():79] save conda
+2022-08-23 23:27:27,962 INFO    Thread-8  :46184 [dir_watcher.py:_on_file_created():217] file/dir created: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/conda-environment.yaml
+2022-08-23 23:27:27,963 INFO    Thread-8  :46184 [dir_watcher.py:_on_file_created():217] file/dir created: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/diff.patch
+2022-08-23 23:27:27,963 INFO    Thread-8  :46184 [dir_watcher.py:_on_file_created():217] file/dir created: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/requirements.txt
+2022-08-23 23:27:27,963 INFO    Thread-8  :46184 [dir_watcher.py:_on_file_created():217] file/dir created: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/wandb-summary.json
+2022-08-23 23:27:32,967 INFO    Thread-8  :46184 [dir_watcher.py:_on_file_created():217] file/dir created: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/output.log
+2022-08-23 23:27:33,766 DEBUG   HandlerThread:46184 [meta.py:_save_conda():89] save conda done
+2022-08-23 23:27:33,767 DEBUG   HandlerThread:46184 [meta.py:probe():252] probe done
+2022-08-23 23:27:33,782 DEBUG   HandlerThread:46184 [handler.py:handle_request():130] handle_request: stop_status
+2022-08-23 23:27:33,782 DEBUG   SenderThread:46184 [sender.py:send_request():252] send_request: stop_status
+2022-08-23 23:27:33,866 DEBUG   SenderThread:46184 [sender.py:send():238] send: config
+2022-08-23 23:27:33,866 DEBUG   SenderThread:46184 [sender.py:send():238] send: files
+2022-08-23 23:27:33,867 INFO    SenderThread:46184 [sender.py:_save_file():960] saving file wandb-metadata.json with policy now
+2022-08-23 23:27:33,867 INFO    SenderThread:46184 [sender.py:_save_file():960] saving file diff.patch with policy now
+2022-08-23 23:27:33,970 INFO    Thread-8  :46184 [dir_watcher.py:_on_file_modified():230] file/dir modified: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/conda-environment.yaml
+2022-08-23 23:27:33,970 INFO    Thread-8  :46184 [dir_watcher.py:_on_file_created():217] file/dir created: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/wandb-metadata.json
+2022-08-23 23:27:34,242 INFO    Thread-11 :46184 [upload_job.py:push():137] Uploaded file /tmp/tmpzl0qvqmiwandb/2aj9g5o8-wandb-metadata.json
+2022-08-23 23:27:34,265 INFO    Thread-12 :46184 [upload_job.py:push():137] Uploaded file /tmp/tmpzl0qvqmiwandb/27guwo0v-diff.patch
+2022-08-23 23:27:34,998 INFO    Thread-8  :46184 [dir_watcher.py:_on_file_modified():230] file/dir modified: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/output.log
+2022-08-23 23:27:38,024 INFO    Thread-8  :46184 [dir_watcher.py:_on_file_modified():230] file/dir modified: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/output.log
+2022-08-23 23:27:40,087 INFO    Thread-8  :46184 [dir_watcher.py:_on_file_modified():230] file/dir modified: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/output.log
+2022-08-23 23:27:48,914 DEBUG   HandlerThread:46184 [handler.py:handle_request():130] handle_request: stop_status
+2022-08-23 23:27:48,914 DEBUG   SenderThread:46184 [sender.py:send_request():252] send_request: stop_status
+2022-08-23 23:27:54,237 INFO    Thread-8  :46184 [dir_watcher.py:_on_file_modified():230] file/dir modified: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/output.log
+2022-08-23 23:27:55,267 INFO    Thread-8  :46184 [dir_watcher.py:_on_file_modified():230] file/dir modified: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/output.log
+2022-08-23 23:27:55,409 WARNING MainThread:46184 [internal.py:wandb_internal():146] Internal process interrupt: 1
+2022-08-23 23:27:55,599 WARNING MainThread:46184 [internal.py:wandb_internal():146] Internal process interrupt: 2
+2022-08-23 23:27:55,600 ERROR   MainThread:46184 [internal.py:wandb_internal():149] Internal process interrupted.
+2022-08-23 23:27:55,673 INFO    WriterThread:46184 [datastore.py:close():281] close: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/run-emkm461q.wandb
+2022-08-23 23:27:55,673 INFO    SenderThread:46184 [sender.py:finish():1091] shutting down sender
+2022-08-23 23:27:55,673 INFO    SenderThread:46184 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-08-23 23:27:55,674 INFO    HandlerThread:46184 [handler.py:finish():731] shutting down handler
+2022-08-23 23:27:56,268 INFO    SenderThread:46184 [dir_watcher.py:finish():313] scan: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files
+2022-08-23 23:27:56,268 INFO    SenderThread:46184 [dir_watcher.py:finish():327] scan save: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/wandb-metadata.json wandb-metadata.json
+2022-08-23 23:27:56,268 INFO    SenderThread:46184 [dir_watcher.py:finish():327] scan save: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/diff.patch diff.patch
+2022-08-23 23:27:56,268 INFO    SenderThread:46184 [dir_watcher.py:finish():327] scan save: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/conda-environment.yaml conda-environment.yaml
+2022-08-23 23:27:56,269 INFO    SenderThread:46184 [dir_watcher.py:finish():327] scan save: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/output.log output.log
+2022-08-23 23:27:56,269 INFO    SenderThread:46184 [dir_watcher.py:finish():327] scan save: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/wandb-summary.json wandb-summary.json
+2022-08-23 23:27:56,275 INFO    SenderThread:46184 [dir_watcher.py:finish():327] scan save: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/config.yaml config.yaml
+2022-08-23 23:27:56,278 INFO    SenderThread:46184 [dir_watcher.py:finish():327] scan save: /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/requirements.txt requirements.txt
+2022-08-23 23:27:56,279 INFO    SenderThread:46184 [file_pusher.py:finish():177] shutting down file pusher
+2022-08-23 23:27:56,279 INFO    SenderThread:46184 [file_pusher.py:join():182] waiting for file pusher
+2022-08-23 23:27:56,609 INFO    Thread-14 :46184 [upload_job.py:push():137] Uploaded file /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/output.log
+2022-08-23 23:27:56,619 INFO    Thread-17 :46184 [upload_job.py:push():137] Uploaded file /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/requirements.txt
+2022-08-23 23:27:56,652 INFO    Thread-15 :46184 [upload_job.py:push():137] Uploaded file /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/wandb-summary.json
+2022-08-23 23:27:56,668 INFO    Thread-16 :46184 [upload_job.py:push():137] Uploaded file /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/config.yaml
+2022-08-23 23:27:56,684 INFO    Thread-13 :46184 [upload_job.py:push():137] Uploaded file /nfs/kun2/users/asap7772/bet/exp_local/2022.08.23/232715_bridge_data/wandb/run-20220823_232725-emkm461q/files/conda-environment.yaml
+2022-08-23 23:27:57,352 INFO    MainThread:46184 [internal.py:handle_exit():77] Internal process exited

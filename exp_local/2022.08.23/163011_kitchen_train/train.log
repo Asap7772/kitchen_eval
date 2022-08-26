@@ -1,0 +1,3 @@
+[2022-08-23 16:30:11,978][root][WARNING] - Kitchen not installed, skipping
+[2022-08-23 16:30:12,390][matplotlib.font_manager][INFO] - font search path ['/home/asap7772/.local/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf', '/home/asap7772/.local/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/afm', '/home/asap7772/.local/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts']
+[2022-08-23 16:30:12,801][matplotlib.font_manager][INFO] - generated new fontManager

@@ -1,0 +1,14 @@
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "train.py", line 284, in main
+    workspace.run()
+  File "train.py", line 164, in run
+    self.action_ae.fit_model(
+  File "/nfs/kun2/users/asap7772/bet/models/action_ae/discretizers/base.py", line 31, in fit_model
+    input_dataloader.dataset._get_all_actions()
+  File "/nfs/kun2/users/asap7772/bet/dataloaders/trajectory_loader.py", line 424, in _get_all_actions
+    return self.dataset.dataset.get_all_actions()
+  File "/nfs/kun2/users/asap7772/bet/dataloaders/trajectory_loader.py", line 93, in get_all_actions
+    return torch.cat(result, dim=0)
+TypeError: expected Tensor as element 0 in argument 0, but got list
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
