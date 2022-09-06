@@ -1,1 +1,0 @@
-{"prior_train/offset": 2.807295011797162, "prior_train/class": 3.4606381658499927, "prior_train/total": 6.267933241827129, "prior_eval/offset": 0.2143299974957291, "prior_eval/class": 3.6609742609011073, "prior_eval/total": 3.875304189669032, "_runtime": 257, "_timestamp": 1661322939, "_step": 39, "_wandb": {"runtime": 257}}
